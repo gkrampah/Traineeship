@@ -2,3 +2,4 @@ joblib
 numpy 
 streamlit
 pandas
+xgboost
