@@ -22,13 +22,12 @@ def highlight_columns(col):
 
 def run():
 
-    
     add_selectbox = st.sidebar.selectbox(
         "How would you like to see the app work?", ("Example", "Batch")
     )
 
     st.sidebar.info("This app is created to predict patient hospital charges")
-    st.sidebar.success("https://www.pycaret.org")
+    # st.sidebar.success("")
 
     # st.sidebar.image(image_hospital)
 
